@@ -1,8 +1,8 @@
 {
   "name": "gps-service",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "GPS tracking service for real-time vehicle location management",
+  "author": "Yaser Alazm",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -12,6 +12,7 @@
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+    "start:hot": "nest start --watch --preserveWatchOutput",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
